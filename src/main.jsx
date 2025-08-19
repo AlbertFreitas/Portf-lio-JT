@@ -19,11 +19,11 @@ createRoot(document.getElementById("root")).render(
     
     <PreLoader/>
     <div className="container mx-auto px-4">
-      <ThemeProvider>
+      
         <Navbar />
         <App />
         <Footer/>
-      </ThemeProvider>
+      
     </div>
   </StrictMode>
 );
