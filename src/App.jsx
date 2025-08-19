@@ -186,14 +186,33 @@ function App() {
                   ))}
                 </div>
                 <div className="mt-8 text-center ">
-                  <a
-                    href={proyek.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-violet-700 p-3 rounded-lg blcok border border-zinc-600 hover:bg-violet-600"
-                  >
-                    Link Projeto
-                  </a>
+
+                  <div className="mt-8 text-center flex-grow flex items-end justify-center gap-4"> {/* Container dos botões */}
+                   {/* Botão para a Demonstração (só aparece se o link existir) */}
+                  {proyek.linkDemo && (
+                    <a
+                      href={proyek.linkDemo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-violet-700 p-3 rounded-lg w-full border border-zinc-600 hover:bg-violet-600 transition-colors"
+                    >
+                      Ver Projeto
+                    </a>
+                  )}
+
+                  {/* Botão para o Código-Fonte (só aparece se o link existir) */}
+                  {proyek.linkRepo && (
+                    <a
+                      href={proyek.linkRepo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-zinc-700 p-3 rounded-lg w-full border border-zinc-600 hover:bg-zinc-600 transition-colors flex items-center justify-center gap-2"
+                    >
+                      <i className="ri-github-fill"></i>
+                      Código-Fonte
+                    </a>
+                  )}
+                </div>
                 </div>
               </div>
             </div>

@@ -116,18 +116,20 @@ export const listProyek = [
     id: 1,
     gambar: Proyek1,
     nama: "API Cadastro de Vendas",
-    desk: "Solução de back-end completa para otimizar o fluxo de vendas de uma hamburgueria. A API gerencia desde o cadastro de produtos e usuários até a criação e atualização dos pedidos, com autenticação segura via JWT.",
+    desk: "Solução de back-end para gestão de uma hamburgueria. O projeto se destaca por uma arquitetura de dados híbrida, usando PostgreSQL para a integridade de produtos e usuários, e MongoDB para a flexibilidade na gestão dos pedidos.",
     tools: ["Javascript", "Node.JS", "MongoDB", "PostgreSQL", "Vite"],
-    link: 'https://github.com/AlbertFreitas/devburguer-API',
+    linkDemo: null, // Este projeto é só API, não tem demo vivo
+    linkRepo: 'https://github.com/AlbertFreitas/devburguer-API',
     dad: "200",  
   },
   {
     id: 2,
     gambar: Proyek2,
     nama: "BuscaSaude",
-    desk: "Plataforma para busca de unidades de saúde, desenvolvida durante o Hackathon Trilhas da Inova Maranhão. Atuei diretamente no back-end, focando na arquitetura da API e na otimização do banco de dados para garantir uma busca eficiente.",
+    desk: "Plataforma para busca de unidades de saúde, prototipada em 48 horas durante o Hackathon Inova Maranhão. A stack com Node.js e React/Vite foi escolhida estrategicamente para garantir a máxima velocidade tanto na construção da API quanto na iteração da interface.",
     tools: ["REACT", "Javascript", "MongoDB", "Node.JS", "PostgreSQL", "Vite", "TailwindCSS"],
-    link: 'https://buscasaudema.vercel.app/', 
+    linkDemo: 'https://buscasaudema.vercel.app/', 
+    linkRepo: '#', // <-- SUBSTITUA PELO LINK DO SEU REPOSITÓRIO
     dad: "300",
   },
   {
@@ -136,7 +138,8 @@ export const listProyek = [
     nama: "Dashboard Previsão de Vendas",
     desk: "Solução de Business Intelligence vencedora do desafio proposto pela Pulse em parceria com o Supermercado Mateus. O dashboard interativo transforma dados brutos em insights para a tomada de decisões estratégicas.",
     tools: ["Vite", "Typescript", "TailwindCSS", "Python", "React", "MongoBD","Node.JS"],
-    link: 'https://pulseminds.vercel.app/',
+    linkDemo: 'https://pulseminds.vercel.app/',
+    linkRepo: 'https://github.com/eliseu01/dashboard',
     dad: "400",
   },
   {
@@ -144,8 +147,9 @@ export const listProyek = [
     gambar: Proyek4,
     nama: "Portfólio",
     desk: "Resultado do meu projeto para o Desafio da Inova Maranhão. Este portfólio responsivo foi uma oportunidade de aplicar e demonstrar meus conhecimentos em tecnologias essenciais do front-end.",
-    link: 'https://projeto-inova-02-portfolio.vercel.app/#home',
     tools: ["Html", "Css", "Javascript"],
+    linkDemo: 'https://projeto-inova-02-portfolio.vercel.app/#home',
+    linkRepo: 'https://github.com/AlbertFreitas/PROJETO-INOVA-02-PORTFOLIO', 
     dad: "500",
   },
   {
@@ -154,7 +158,8 @@ export const listProyek = [
     nama: "API Cadastro de Usuários",
     desk: "Aplicação Full Stack completa para gerenciamento de usuários em tempo real. O projeto integra um front-end construído com React.js a uma API REST robusta, desenvolvida com Node.js, Express e Prisma ORM.",
     tools: ["Vite", "React", "Javascript", "MongoBD","Node.JS", "Prisma.io"],
-    link: 'https://github.com/AlbertFreitas/NODE.JS-CADASTRO-USUARIOS', 
+    linkDemo: null, // Outro projeto de API
+    linkRepo: 'https://github.com/AlbertFreitas/NODE.JS-CADASTRO-USUARIOS', 
     dad: "600",
   },
   {
@@ -163,7 +168,8 @@ export const listProyek = [
     nama: "Previsão do Tempo",
     desk: "Aplicação web que fornece a previsão do tempo de forma simples e direta. O projeto foi construído utilizando HTML, CSS e JavaScript para consumir e apresentar dados de uma API de meteorologia em tempo real.",
     tools: ["Html", "Css", "Javascript"],
-    link: 'https://albertfreitas.github.io/PROJETO-PREVISAO-TEMPO/',
+    linkDemo: 'https://albertfreitas.github.io/PROJETO-PREVISAO-TEMPO/',
+    linkRepo: 'https://github.com/AlbertFreitas/PROJETO-PREVISAO-TEMPO', 
     dad: "700",
   },
 ];
