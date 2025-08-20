@@ -7,7 +7,7 @@ import 'remixicon/fonts/remixicon.css' // Import Remix Icon CSS (Biblioteca de I
 import Footer from "./components/Footer.jsx";
 import PreLoader from "./components/PreLoader.jsx"; // Import PreLoader Component (Biblioteca de Animação de Loading// 
 import 'animate.css'; // Import Animate.css (Biblioteca de Animação CSS) https://animate-style.translate.goog/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc //
-import { ThemeProvider } from './ThemeContext.jsx'; // 1. Importe o provedor
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
